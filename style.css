@@ -42,6 +42,11 @@ img {
   text-decoration: none;
   text-transform: capitalize;
 }
+/* 
+========
+hero 
+========
+*/
 .hero {
   min-height: calc(100vh - 5rem);
   background-color: green;
