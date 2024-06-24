@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --transition: all 0.3s linear;
+}
+img {
+  width: 100%;
+  display: block;
+}
+/* 
+===========
+  navbar
+===========
+*/
+.container {
+  background-color: black;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container h2 {
+  color: #fff;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+.nav-links {
+  display: flex;
+  gap: 0 0.5rem;
+}
+.nav-links li {
+  list-style: none;
+}
+.link {
+  font-size: 1.5rem;
+  color: bisque;
+  letter-spacing: 0.25rem;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.hero {
+  min-height: calc(100vh - 5rem);
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.center {
+  text-align: center;
+}
+.center h1 {
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  color: cadetblue;
+}
+.center p {
+  max-width: 26rem;
+  margin-bottom: 2rem;
+  color: bisque;
+  text-transform: capitalize;
+}
+.center button {
+  padding: 0.75rem 1rem;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: cadetblue;
+  outline: 2px solid goldenrod;
+  outline-offset: 5px;
+  border: transparent;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+button:hover {
+  background-color: chocolate;
+  box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.2);
+}
+/*
+===========
+services
+===========
+*/
+
+.services {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card {
+  flex: 0 0 calc(33.33% - 1rem);
+  margin-top: 2rem;
+}
+.ima {
+  height: 5rem;
+  object-fit: cover;
+}
